@@ -1,26 +1,34 @@
 
 import '../css/menu.css';
-import '../js/menu';
 
 export function Menu() {
     return (
         <>
-            <h2 className="info">Full Page Navigation</h2><button className="nav-button">
-                <div className="line line__1"></div>
-                <div className="line line__2"></div>
-                <div className="line line__3"></div>
-            </button><nav>
-                <div className="nav__background"></div>
-                <ul>
-                    <li><a href="#0">Home</a></li>
-                    <li><a href="#0">About</a></li>
-                    <li><a href="#0">Contact</a></li>
-                    <li><a href="#0">Dance</a></li>
-                </ul>
-            </nav><div className="support">
-                <a href="https://twitter.com/DevLoop01" target="_blank"><i className="fab fa-twitter-square"></i></a>
-                <a href="https://codepen.io/dev_loop/" target="_blank"><i className="fab fa-codepen"></i></a>
-            </div>
+            <head>
+                <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet" />
+                <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+                <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+            </head>
+
+            <body>
+                <input type="checkbox" id="active" />
+                <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+                <div class="wrapper">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        Fullscreen Overlay Navigation Bar</div>
+                    <p>
+                        with HTML & CSS Neon Effect</p>
+                </div>
+            </body>
         </>
     )
 }
