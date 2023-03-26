@@ -4,31 +4,18 @@ import '../css/menu.css';
 export function Menu() {
     return (
         <>
-            <head>
-                <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
-                <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-            </head>
-
-            <body>
-                <input type="checkbox" id="active" />
-                <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
-                <div class="wrapper">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Feedback</a></li>
-                    </ul>
-                </div>
-                <div class="content">
-                    <div class="title">
-                        Fullscreen Overlay Navigation Bar</div>
-                    <p>
-                        with HTML & CSS Neon Effect</p>
-                </div>
-            </body>
+            <input type="checkbox" id="active" />
+            <label for="active" class="menu-btn"><span></span></label>
+            <label for="active" class="close"></label>
+            <div class="wrapper">
+                <ul>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Habilidades</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Contatos</a></li>
+                    <li><a href="#">Feedback</a></li>
+                </ul>
+            </div>
         </>
     )
 }
