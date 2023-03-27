@@ -6,7 +6,7 @@ export function Home() {
     return (
         <>
             <Container />
-            <Row>
+            <Row className="p-5">
                 <Col className="p-0 m-auto">
                     <p className="title">Frontend Developer</p>
                     <p>

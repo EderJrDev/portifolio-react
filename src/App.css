@@ -8,12 +8,26 @@
   font-family: 'Roboto Mono', monospace;
 }
 
-body {
+.header {
   background-image: url('./assets/img/bg-2.png');
   background-repeat: no-repeat;
   min-width: 100%;
   min-height: 100%;
   background-size: cover;
   overflow-x: hidden;
+}
 
+.tech-bg {
+  background-image: url('./assets/img/bg-1.jpg');
+  background-repeat: no-repeat;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+@media (max-width: 991px) {
+  body {
+    background-repeat: inherit;
+  }
 }
