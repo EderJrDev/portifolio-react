@@ -9,29 +9,18 @@ import '../src/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <head>
-        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-        {/* splide  */}
-        <script src="path-to-the-file/splide.min.js"></script>
-        <script src="path-to-the-script/splide-extension-auto-scroll.min.js"></script>
-      </head>
-      <body>
-        <div className='header'>
+      <div className='header'>
         < Menu className="bg-image" />
         {/* <div className="content"> */}
-          < Home />
-        </div>
-        <div className='bg-tech'>
-          < Tech />
-        </div>
-        {/* </div> */}
-      </body>
+        < Home />
+      </div>
+      <div className='bg-tech'>
+        < Tech />
+      </div>
+      {/* </div> */}
     </>
   )
 }

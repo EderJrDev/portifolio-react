@@ -14,9 +14,9 @@ export function Home() {
                     </p>
                 </Col>
                 <Col className="p-0">
-                <div className="banner">
-                    <img src={header} />
-                </div>
+                    <div className="banner">
+                        <img src={header} />
+                    </div>
                 </Col>
             </Row>
             <Container />
