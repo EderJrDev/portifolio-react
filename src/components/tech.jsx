@@ -2,7 +2,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import '../css/tech.css';
 import '@splidejs/react-splide/css'; import '@splidejs/react-splide/css/skyblue';
 import '@splidejs/react-splide/css/sea-green';
-import '@splidejs/react-splide/css/core';
 import { Splide, SplideTrack, SplideSlide } from '@splidejs/react-splide';
 import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 
@@ -15,7 +14,7 @@ export function Tech() {
                     <article class="text-center">
                         <h1 className="title">Tecnologias</h1>
                         <p class="text-white">
-                            Tecnologias que já tive contato, utilizei em projetos e nos esturdos.
+                            Tecnologias que já tive contato, utilizei em projetos e estudos.
                         </p>
                     </article>
                     <div>
