@@ -4,7 +4,7 @@ import '../css/projects.css';
 export function Projects() {
     return (
         <>
-            <Row>
+            {/* <Row> */}
                 <Row className="body">
                     <div className="pt-3">
                         <article class="text-center">
@@ -62,7 +62,7 @@ export function Projects() {
 
                     </Col>
                 </Row>
-            </Row>
+            {/* </Row> */}
         </>
     )
 }
