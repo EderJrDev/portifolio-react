@@ -8,12 +8,12 @@ import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 export function Tech() {
     return (
         <>
-            <Container />
+            <Container className="bg-black" />
             <Row className="p-5">
                 <Col className="p-0 m-auto">
                     <article class="text-center">
-                        <h1 className="title">Tecnologias</h1>
-                        <p class="text-white">
+                        <h1 className="title ">Tecnologias</h1>
+                        <p class="">
                             Tecnologias que já tive contato, utilizei em projetos e estudos.
                         </p>
                     </article>

@@ -6,6 +6,10 @@
      background-size: cover;
  }
 
+ .bg-black {
+    background-color: black !important;
+ }
+
  /* cards  */
 
  .channel-list {
@@ -28,7 +32,7 @@
  .channel-list img {
      border-radius: 50%;
      width: 130px;
-     border: 1px solid #443e54;
+     /* border: 1px solid #443e54; */
      box-shadow: 0px 0px 8px #ae362c;
  }
 

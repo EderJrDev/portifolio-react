@@ -19,14 +19,14 @@ function App() {
         {/* <div className="content"> */}
         < Home />
       </div>
-      <div className='bg-tech'>
+      <div className='bg-black'>
         < Tech />
       </div>
       <div>
-        < Projects />
+        <Progress />
       </div>
       <div>
-        <Progress />
+        < Projects />
       </div>
       {/* </div> */}
     </>
