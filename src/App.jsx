@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 
 import { Menu } from './components/menu'
@@ -15,20 +14,14 @@ function App() {
   return (
     <>
       <div className='header'>
-        < Menu className="bg-image" />
-        {/* <div className="content"> */}
+        < Menu />
         < Home />
       </div>
       <div className='bg-black'>
         < Tech />
       </div>
-      <div>
-        <Progress />
-      </div>
-      <div>
-        < Projects />
-      </div>
-      {/* </div> */}
+      <Progress />
+      < Projects />
     </>
   )
 }

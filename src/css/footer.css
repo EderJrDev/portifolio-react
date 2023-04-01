@@ -1,0 +1,41 @@
+.contato-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #000000;
+    border: 2px solid #6c757d;
+    border-radius: 5px;
+    margin: 50px auto;
+    max-width: 600px;
+  }
+  
+  .icones-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .icones-container a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #6c757d;
+    border: 2px solid #6c757d;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .icones-container a:hover {
+    color: #fff;
+    background-color: #6c757d;
+  }
+  
+  .contato-container p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #6c757d;
+  }

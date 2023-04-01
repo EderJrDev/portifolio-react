@@ -12,11 +12,12 @@ html {
 }
 
 .header {
-  background-image: url('./assets/img/bg-2.png');
+  background-image: url('./assets/img/bg-2.png') !important;
   background-repeat: no-repeat;
   min-width: 100%;
   min-height: 100%;
   background-size: cover;
+  z-index: 999 !important;
 }
 
 .tech-bg {
@@ -27,6 +28,9 @@ html {
   background-size: cover;
   overflow-x: hidden;
 }
+
+
+
 
 @media (max-width: 991px) {
   body {
