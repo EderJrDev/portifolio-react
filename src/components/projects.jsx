@@ -7,15 +7,15 @@ import js from '../assets/img/js.jpg.png';
 import link from '../assets/img/link.webp.png';
 import nlw from '../assets/img/nlw.png';
 import pokemon from '../assets/img/pokemon.jpg';
-import { Footer } from './footer';
+// import { Footer } from './footer';
 
 export function Projects() {
 
     return (
         <>
-            <Container className="body">
+            <Container className="body-color">
                 <Row className="px-3">
-                    <Col md={12}>
+                    <Col md={12} className='py-5'>
                         <article class="text-center">
                             <h1 className="title">Projetos</h1>
                             <p>
@@ -23,7 +23,7 @@ export function Projects() {
                             </p>
                         </article>
                     </Col>
-                    <Col md={6} className='bg-hover'>
+                    <Col md={6} className='bg-hover pb-5'>
                         <div className="card card-01">
                             <img src={js} alt="Card image cap" />
                         </div>
@@ -41,7 +41,7 @@ export function Projects() {
                     </Col>
                 </Row>
                 <Row className='px-3'>
-                    <Col md={6} className='bg-hover'>
+                    <Col md={6} className='bg-hover pb-5'>
                         <div className="card card-01">
                             <img src={nlw} alt="Card image cap" />
                         </div>
@@ -57,9 +57,9 @@ export function Projects() {
                             <p>Texto em destaque</p>
                         </div>
                     </Col>
-                    <Col md={12}>
+                    {/* <Col md={12}>
                         <Footer />
-                    </Col>
+                    </Col> */}
                 </Row>
             </Container>
         </>

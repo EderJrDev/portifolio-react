@@ -8,6 +8,7 @@ import { Progress } from './components/progress'
 
 import '../src/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Footer } from './components/footer'
 
 function App() {
 
@@ -22,6 +23,9 @@ function App() {
       </div>
       <Progress />
       < Projects />
+      <div id='hero-3'  className='bg-black'>
+      < Footer />
+      </div>
     </>
   )
 }

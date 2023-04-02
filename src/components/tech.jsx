@@ -6,11 +6,70 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Splide, SplideTrack, SplideSlide } from '@splidejs/react-splide';
 import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 
+// import perfil from '../assets/img/astronaut.png';
+
 export function Tech() {
     return (
         <>
             <Container />
             <Row className="p-5">
+                <Col md={12}>
+                    <article class=" pb-3 text-center">
+                        <h1 className="title bg">Valores</h1>
+                    </article>
+                </Col>
+                <Col md={6}>
+                    <h4 className='bg'>Missão</h4>
+                    <p>Ajudar a sociedade através da tecnologia, fazendo a diferença no mundo.</p>
+                    <h4 className='bg'>Visão</h4>
+                    <p>Alcançar meus objetivos pessoais e profissionais e se possível, ajudar os outros a alcançarem os seus próprios.</p>
+                    <h4 className='bg'>Valores</h4>
+                    <p>
+                        Ser grato, saber reconhecer, felicidade é um exercício
+                        Tudo o que acontece em MINHA VIDA é CULPA MINHA - sendo ruim ou bom - Assumir a responsabilidade, você está no controle.
+                        Viver pelo exemplo - ser o líder e se empenhar, ralar juntamente com a equipe para a motivação de todos.
+                    </p>
+                    <em className='bg'>
+                        "O Naruto pode ser um pouco duro às vezes, talvez você não saiba disso, mas o Naruto também cresceu sem pai.
+                        Na verdade ele nunca conheceu nenhum de seus pais, e nunca teve nenhum amigo em nossa aldeia.
+                        Mesmo assim eu nunca vi ele chorar, ficar zangado ou se dar por vencido, ele está sempre disposto a melhorar,
+                        ele quer ser respeitado, é o sonho dele e o Naruto daria a vida por isso sem hesitar. Meu palpite é que ele se
+                        cansou de chorar e decidiu fazer alguma coisa a respeito!"
+                    </em>
+                </Col>
+                <Col md={6} className='text-center'>
+                    {/* <img src={perfil} alt="Card image cap" /> */}
+                    {/* <img id='perfil' src="https://i.pinimg.com/564x/57/e3/fe/57e3fe2fd802fe763626956d41672ce9.jpg" alt="" /> */}
+                    <div className="rocket">
+                        <div className="rocket-body">
+                            <div className="body"></div>
+                            <div className="fin fin-left"></div>
+                            <div className="fin fin-right"></div>
+                            <div className="window"></div>
+                        </div>
+                        <div className="exhaust-flame"></div>
+                        <ul className="exhaust-fumes">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul className="star">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </Col>
                 <Col className="p-0 m-auto">
                     <article class="text-center">
                         <h1 className="title bg">Tecnologias</h1>
@@ -69,20 +128,6 @@ export function Tech() {
                             </SplideTrack>
                         </Splide>
                     </div>
-                </Col>
-                <Col className="text-center">
-                    <article class=" pb-3 text-center">
-                        <h1 className="title bg">Valores</h1>
-                    </article>
-                    <p className="">Missão: Fazer a diferença no mundo ao meu redor, ajudar a sociedade através da tecnologia.
-
-                    </p>
-                    <p className="">  Visão: Minha visão é alcançar meus objetivos pessoais e profissionais, enquanto ajudo os outros a alcançarem os seus.
-                    </p>
-                    <p className="">Valores: felicidade é um exercício, saber reconhecer , ser grato
-                        Tudo o que acontece na MINHA vida é MINHA CULPA, seja bom ou ruim  - Assumir responsabilidade sobre nossa vida , você está no controle. Viver pelo exemplo - Ser o líder e se esforçar , para que o time se sinta motivado; Ralar junto com com o time.
-
-                    </p>
                 </Col>
             </Row>
             <Container />

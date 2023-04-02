@@ -8,8 +8,9 @@ export function Footer() {
     return (
         <Container>
             <Row>
-                <Col>
-                    <div className="pt-3">
+                <Col className='section'>
+                    <div className='container3'></div>
+                    <div className="pt-3 m-auto">
                         <article class="text-center">
                             <h1 className="title">Gostou?</h1>
                         </article>
@@ -20,14 +21,14 @@ export function Footer() {
                             <a href="https://www.instagram.com/seuinstagramaqui/">
                                 <FontAwesomeIcon icon={faInstagram} />
                             </a>
-                            <a href="https://www.linkedin.com/in/seulinkedin/">
-                                <FontAwesomeIcon icon={faLinkedin} />
-                            </a>
                             <a href="https://github.com/seugithubaqui">
                                 <FontAwesomeIcon icon={faGithub} />
                             </a>
+                            <a href="https://www.linkedin.com/in/seulinkedin/">
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
                         </div>
-                        <p>Todos os direitos reservados</p>
+                        <p>© 2023 Eder Jr. Todos os direitos reservados.</p>
                     </div>
                 </Col>
             </Row>
