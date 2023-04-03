@@ -12,23 +12,13 @@ html {
 }
 
 .header {
-  background-image: url('./assets/img/bg-2.png') !important;
+  background-image: url('./assets/img/bg-2.webp') !important;
   background-repeat: no-repeat;
   min-width: 100%;
   min-height: 100%;
   background-size: cover;
   z-index: 999 !important;
 }
-
-.tech-bg {
-  background-image: url('./assets/img/bg-1.jpg');
-  background-repeat: no-repeat;
-  min-width: 100%;
-  min-height: 100%;
-  background-size: cover;
-  overflow-x: hidden;
-}
-
 
 body::-webkit-scrollbar-track
 {

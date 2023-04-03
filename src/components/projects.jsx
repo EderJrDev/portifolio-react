@@ -3,10 +3,10 @@ import { Col, Container, Row } from "react-bootstrap";
 
 import '../css/projects.css';
 import '../css/footer.css';
-import js from '../assets/img/js.jpg.png';
-import link from '../assets/img/link.webp.png';
-import nlw from '../assets/img/nlw.png';
-import pokemon from '../assets/img/pokemon.jpg';
+import js from '../assets/img/js.webp';
+import link from '../assets/img/link.webp';
+import nlw from '../assets/img/nlw.webp';
+import pokemon from '../assets/img/pokemon.webp';
 
 export function Projects() {
 
