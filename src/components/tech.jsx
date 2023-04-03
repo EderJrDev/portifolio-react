@@ -9,7 +9,7 @@ import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 export function Tech() {
     return (
         <>
-            <Container />
+            <Container id="sobreId" />
             <Row className="p-5">
                 <Col md={12}>
                     <article class=" pb-3 text-center">

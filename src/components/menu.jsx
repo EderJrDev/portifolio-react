@@ -1,22 +1,31 @@
 import React from 'react';
+import { useState } from 'react';
+
 import '../css/menu.css';
 
 export function Menu(props) {
-    function handleClickSobre() {
-        const element = document.getElementById(props.sobreId);
-        element.scrollIntoView({ behavior: 'smooth' });
-    }
+    const [menuAberto, setMenuAberto] = useState(false);
+
+    const handleClickLink = () => {
+        const divElement = document.querySelector('.close');
+        divElement.click();
+        // setTemClasse(false);
+        setMenuAberto(false); // fechar o menu
+    };
+
     return (
         <>
-            <input type="checkbox" id="active" />
-            <label for="active" class="menu-btn"><span></span></label>
-            <label for="active" class="close"></label>
-            <div class="wrapper">
-                <ul>
-                    <li><a href={`#${props.sobreId}`} id={`${props.sobreId}-link`} onClick={handleClickSobre} target='_blank' >Sobre</a></li>
-                    <li><a href={`#${props.projetosId}`} id={`${props.projetosId}-link`} target='_blank'>Projetos</a></li>
-                    <li><a href={`#${props.contatosId}`} id={`${props.contatosId}-link`} target='_blank'>Contatos</a></li>
-                </ul>
+            <div className={`menu ${menuAberto ? 'aberto' : ''}`}>
+                <input type="checkbox" id="active" />
+                <label for="active" className="menu-btn"><span></span></label>
+                <label for="active" className="close"></label>
+                <div className="wrapper">
+                    <ul>
+                        <li><a onClick={handleClickLink} href={`#${props.sobreId}`} id={`${props.sobreId}-link`} >Sobre</a></li>
+                        <li><a onClick={handleClickLink} href={`#${props.projetosId}`} id={`${props.projetosId}-link`}>Projetos</a></li>
+                        <li><a onClick={handleClickLink} href={`#${props.contatosId}`} id={`${props.contatosId}-link`}>Contatos</a></li>
+                    </ul>
+                </div>
             </div>
         </>
     )

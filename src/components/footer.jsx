@@ -6,7 +6,7 @@ import '../css/footer.css';
 
 export function Footer() {
     return (
-        <Container>
+        <Container id='contatosId'>
             <Row>
                 <Col id='contatos' className='section'>
                     <div className='container3'></div>

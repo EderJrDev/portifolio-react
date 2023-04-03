@@ -12,7 +12,7 @@ export function Projects() {
 
     return (
         <>
-            <Container className="body-color">
+            <Container id="projetos" className="body-color">
                 <Row className="px-3">
                     <Col md={12} className='py-5'>
                         <article class="text-center">
