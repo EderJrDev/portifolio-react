@@ -23,9 +23,9 @@ export function Tech() {
                     <p>Alcançar meus objetivos pessoais e profissionais e se possível, ajudar os outros a alcançarem os seus próprios.</p>
                     <h4 className='bg'>Valores</h4>
                     <p>
-                        Ser grato, saber reconhecer, felicidade é um exercício
-                        Tudo o que acontece em MINHA VIDA é CULPA MINHA - sendo ruim ou bom - Assumir a responsabilidade, você está no controle.
-                        Viver pelo exemplo - ser o líder e se empenhar, ralar juntamente com a equipe para a motivação de todos.
+                        A felicidade é um exercício, ser grato e saber reconhecer. Tudo o que acontecer em minha vida é de minha responsabilidade seja negativamente ou positivamente.
+                        Assumir o dever, você está no comando.
+                        Ser o líder, estar com a equipe, dando o exemplo e sendo a motivação necessária à todos.
                     </p>
                     {/* <em className='bg'>
                         "O Naruto pode ser um pouco duro às vezes, talvez você não saiba disso, mas o Naruto também cresceu sem pai.
