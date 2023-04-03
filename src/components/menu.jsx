@@ -9,7 +9,6 @@ export function Menu(props) {
     const handleClickLink = () => {
         const divElement = document.querySelector('.close');
         divElement.click();
-        // setTemClasse(false);
         setMenuAberto(false); // fechar o menu
     };
 

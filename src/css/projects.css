@@ -68,6 +68,11 @@
   padding: 10px;
 }
 
+.fullscreen {
+  width: 100%;
+  height: 100%;
+}
+
 @media (max-width: 991px) {
   #link {
     padding-bottom: 50px;

@@ -37,14 +37,8 @@
 
  .img-tech {
      width: 300px !important;
+     height: 100%;
  }
-
- /* imagem de perfil  */
-
- #perfil {
-     border-radius: 50%;
- }
-
 
  /* hocket  */
 
@@ -359,6 +353,6 @@
      }
 
      .texto {
-        font-size: 7px !important;
+         font-size: 7px !important;
      }
  }

@@ -15,7 +15,6 @@
   position: fixed;
 }
 
-
 #active:checked~.wrapper::before {
   right: -100%;
   z-index: 999;
@@ -164,7 +163,6 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(0, 0, 0, 0);
 }
-
 
 #active:checked~.wrapper ul li a {
   opacity: 1;

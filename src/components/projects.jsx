@@ -9,7 +9,6 @@ import nlw from '../assets/img/nlw.webp';
 import pokemon from '../assets/img/pokemon.webp';
 
 export function Projects() {
-
     return (
         <>
             <Container id="projetos" className="body-color">
@@ -21,7 +20,7 @@ export function Projects() {
                     </Col>
                     <Col md={6} className='bg-hover pb-5'>
                         <div className="card card-01">
-                            <img src={js} alt="Card image cap" />
+                            <img src={js} className='fullscreen' alt="Card image" />
                         </div>
                         <div className="texto">
                             <p>"Projeto desenvolvido em React que consiste em um quiz de JavaScript, permitindo aos usuários testarem seus conhecimentos na linguagem.</p>
@@ -29,7 +28,7 @@ export function Projects() {
                     </Col>
                     <Col id='link' md={6} className='bg-hover'>
                         <div className="card card-01">
-                            <img src={link} alt="Card image cap" />
+                            <img src={link} className='fullscreen' alt="Card image" />
                         </div>
                         <div className="texto">
                             <p>"Construí um projeto de Linktree utilizando HTML e CSS para criar animações e estilizações personalizadas, permitindo centralizar diversos links em uma única página."</p>
@@ -39,7 +38,7 @@ export function Projects() {
                 <Row className='px-3'>
                     <Col md={6} className='bg-hover pb-5'>
                         <div className="card card-01">
-                            <img src={nlw} alt="Card image cap" />
+                            <img src={nlw} className='fullscreen' alt="Card image" />
                         </div>
                         <div className="texto">
                             <p>"Participei do NLW da Rocketseat e desenvolvi uma aplicação completa, com frontend, backend e versão mobile, utilizando as tecnologias mais modernas do mercado.</p>
@@ -47,15 +46,12 @@ export function Projects() {
                     </Col>
                     <Col md={6} className='bg-hover'>
                         <div className="card card-01">
-                            <img src={pokemon} alt="Card image cap" />
+                            <img src={pokemon} className='fullscreen' alt="Card image" />
                         </div>
                         <div className="texto">
                             <p>Criei uma Pokédex em React, utilizando a API do Pokémon para permitir aos usuários visualizar e buscar seus Pokémon favoritos.</p>
                         </div>
                     </Col>
-                    {/* <Col md={12}>
-                        <Footer />
-                    </Col> */}
                 </Row>
             </Container>
         </>

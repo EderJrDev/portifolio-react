@@ -15,7 +15,7 @@ export function Home() {
                 </Col>
                 <Col className="p-0 text-center">
                     <div className="banner">
-                        <img src={header} />
+                        <img src={header} alt="astronaut" />
                     </div>
                 </Col>
             </Row>

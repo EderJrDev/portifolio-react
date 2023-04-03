@@ -1,16 +1,14 @@
 import './App.css'
+import '../src/App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Menu } from './components/menu'
 import { Home } from './components/home'
 import { Tech } from './components/tech'
 import { Projects } from './components/projects'
-
-import '../src/App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Footer } from './components/footer'
 
 function App() {
-  
   return (
     <>
       <div className='header'>

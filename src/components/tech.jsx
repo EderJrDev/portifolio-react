@@ -92,7 +92,7 @@ export function Tech() {
                         >
                             <SplideTrack>
                                 <SplideSlide>
-                                    <img className="img-tech" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react" />
+                                    <img className="img-tech"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react" />
                                 </SplideSlide>
                                 <SplideSlide>
                                     <img className="img-tech" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="javascript" />
