@@ -7,7 +7,6 @@ import js from '../assets/img/js.jpg.png';
 import link from '../assets/img/link.webp.png';
 import nlw from '../assets/img/nlw.png';
 import pokemon from '../assets/img/pokemon.jpg';
-// import { Footer } from './footer';
 
 export function Projects() {
 
@@ -17,10 +16,7 @@ export function Projects() {
                 <Row className="px-3">
                     <Col md={12} className='py-5'>
                         <article class="text-center">
-                            <h1 className="title">Projetos</h1>
-                            <p>
-                                Projetos realizados durante os meus estudos.
-                            </p>
+                            <h1 className="title text-white">Projetos</h1>
                         </article>
                     </Col>
                     <Col md={6} className='bg-hover pb-5'>
@@ -28,15 +24,15 @@ export function Projects() {
                             <img src={js} alt="Card image cap" />
                         </div>
                         <div className="texto">
-                            <p>Texto em destaque</p>
+                            <p>"Projeto desenvolvido em React que consiste em um quiz de JavaScript, permitindo aos usuários testarem seus conhecimentos na linguagem.</p>
                         </div>
                     </Col>
-                    <Col md={6} className='bg-hover'>
+                    <Col id='link' md={6} className='bg-hover'>
                         <div className="card card-01">
                             <img src={link} alt="Card image cap" />
                         </div>
                         <div className="texto">
-                            <p>Texto em destaque</p>
+                            <p>"Construí um projeto de Linktree utilizando HTML e CSS para criar animações e estilizações personalizadas, permitindo centralizar diversos links em uma única página."</p>
                         </div>
                     </Col>
                 </Row>
@@ -46,7 +42,7 @@ export function Projects() {
                             <img src={nlw} alt="Card image cap" />
                         </div>
                         <div className="texto">
-                            <p>Texto em destaque</p>
+                            <p>"Participei do NLW da Rocketseat e desenvolvi uma aplicação completa, com frontend, backend e versão mobile, utilizando as tecnologias mais modernas do mercado.</p>
                         </div>
                     </Col>
                     <Col md={6} className='bg-hover'>
@@ -54,7 +50,7 @@ export function Projects() {
                             <img src={pokemon} alt="Card image cap" />
                         </div>
                         <div className="texto">
-                            <p>Texto em destaque</p>
+                            <p>Criei uma Pokédex em React, utilizando a API do Pokémon para permitir aos usuários visualizar e buscar seus Pokémon favoritos.</p>
                         </div>
                     </Col>
                     {/* <Col md={12}>

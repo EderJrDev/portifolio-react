@@ -15,7 +15,9 @@ function App() {
   return (
     <>
       <div className='header'>
-        < Menu />
+        < Menu sobreId="sobre"
+          projetosId="projetos"
+          contatosId="contatos" />
         < Home />
       </div>
       <div className='bg-black'>
@@ -23,8 +25,8 @@ function App() {
       </div>
       <Progress />
       < Projects />
-      <div id='hero-3'  className='bg-black'>
-      < Footer />
+      <div id='hero-3' className='bg-black'>
+        < Footer />
       </div>
     </>
   )

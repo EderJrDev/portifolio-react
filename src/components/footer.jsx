@@ -8,7 +8,7 @@ export function Footer() {
     return (
         <Container>
             <Row>
-                <Col className='section'>
+                <Col id='contatos' className='section'>
                     <div className='container3'></div>
                     <div className="pt-3 m-auto">
                         <article class="text-center">
@@ -18,13 +18,13 @@ export function Footer() {
                     <div className="contato-container">
                         <h2>Contate-me</h2>
                         <div className="icones-container">
-                            <a href="https://www.instagram.com/seuinstagramaqui/">
+                            <a href="https://www.instagram.com/ederjuninho_/" target='_blank'>
                                 <FontAwesomeIcon icon={faInstagram} />
                             </a>
-                            <a href="https://github.com/seugithubaqui">
+                            <a href="https://github.com/EderJrDev" target='_blank'>
                                 <FontAwesomeIcon icon={faGithub} />
                             </a>
-                            <a href="https://www.linkedin.com/in/seulinkedin/">
+                            <a href="https://www.linkedin.com/in/eder-junior-72b350168/" target='_blank'>
                                 <FontAwesomeIcon icon={faLinkedin} />
                             </a>
                         </div>

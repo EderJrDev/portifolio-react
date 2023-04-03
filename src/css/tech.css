@@ -97,7 +97,8 @@
      width: 40px;
      height: 40px;
      border-radius: 100%;
-     background-color: #a75248;
+     /* background-color: #a75248; */
+     background-image: linear-gradient(90deg, #4776e6 0%, #8e54e9 100%);
      left: calc(50% - 25px);
      top: 40px;
      border: 5px solid #b4b2b2;
@@ -108,7 +109,9 @@
      z-index: -100;
      height: 55px;
      width: 50px;
-     background-color: #a75248;
+     /* background-color: #a75248; */
+     background-image: linear-gradient(90deg, #4776e6 0%, #8e54e9 100%);
+
  }
 
  .rocket .fin-left {
@@ -357,6 +360,14 @@
 
  @media (max-width: 991px) {
      .img-tech {
-         width: 100px !important;
+         width: 80px !important;
+     }
+
+     #rocket {
+         display: none !important;
+     }
+
+     .texto {
+        font-size: 9px !important;
      }
  }

@@ -6,8 +6,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Splide, SplideTrack, SplideSlide } from '@splidejs/react-splide';
 import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 
-// import perfil from '../assets/img/astronaut.png';
-
 export function Tech() {
     return (
         <>
@@ -18,7 +16,7 @@ export function Tech() {
                         <h1 className="title bg">Valores</h1>
                     </article>
                 </Col>
-                <Col md={6}>
+                <Col id='sobre' md={6}>
                     <h4 className='bg'>Missão</h4>
                     <p>Ajudar a sociedade através da tecnologia, fazendo a diferença no mundo.</p>
                     <h4 className='bg'>Visão</h4>
@@ -37,9 +35,7 @@ export function Tech() {
                         cansou de chorar e decidiu fazer alguma coisa a respeito!"
                     </em>
                 </Col>
-                <Col md={6} className='text-center'>
-                    {/* <img src={perfil} alt="Card image cap" /> */}
-                    {/* <img id='perfil' src="https://i.pinimg.com/564x/57/e3/fe/57e3fe2fd802fe763626956d41672ce9.jpg" alt="" /> */}
+                <Col id='rocket' md={6} className='text-center'>
                     <div className="rocket">
                         <div className="rocket-body">
                             <div className="body"></div>
@@ -71,9 +67,9 @@ export function Tech() {
                     </div>
                 </Col>
                 <Col className="p-0 m-auto">
-                    <article class="text-center">
+                    <article class="text-center py-3">
                         <h1 className="title bg">Tecnologias</h1>
-                        <p class="">
+                        <p>
                             Tecnologias que já tive contato, utilizei em projetos e estudos.
                         </p>
                     </article>

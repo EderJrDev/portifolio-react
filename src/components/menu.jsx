@@ -1,7 +1,11 @@
-
+import React from 'react';
 import '../css/menu.css';
 
-export function Menu() {
+export function Menu(props) {
+    function handleClickSobre() {
+        const element = document.getElementById(props.sobreId);
+        element.scrollIntoView({ behavior: 'smooth' });
+    }
     return (
         <>
             <input type="checkbox" id="active" />
@@ -9,11 +13,9 @@ export function Menu() {
             <label for="active" class="close"></label>
             <div class="wrapper">
                 <ul>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Habilidades</a></li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a href="#">Contatos</a></li>
-                    <li><a href="#">Feedback</a></li>
+                    <li><a href={`#${props.sobreId}`} id={`${props.sobreId}-link`} onClick={handleClickSobre} target='_blank' >Sobre</a></li>
+                    <li><a href={`#${props.projetosId}`} id={`${props.projetosId}-link`} target='_blank'>Projetos</a></li>
+                    <li><a href={`#${props.contatosId}`} id={`${props.contatosId}-link`} target='_blank'>Contatos</a></li>
                 </ul>
             </div>
         </>
