@@ -91,3 +91,9 @@
   color: white;
   height: 100vh !important;
 }
+
+@media (max-width: 991px) {
+  #hero-3 {
+    background-size: contain;
+  }
+}
