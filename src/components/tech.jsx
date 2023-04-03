@@ -10,13 +10,13 @@ export function Tech() {
     return (
         <>
             <Container id="sobreId" />
-            <Row className="p-5">
-                <Col md={12}>
+            <Row>
+                <Col className="p-5" md={12}>
                     <article class=" pb-3 text-center">
                         <h1 className="title bg">Valores</h1>
                     </article>
                 </Col>
-                <Col id='sobre' md={6}>
+                <Col id='sobre' className="p-5" md={6}>
                     <h4 className='bg'>Missão</h4>
                     <p>Ajudar a sociedade através da tecnologia, fazendo a diferença no mundo.</p>
                     <h4 className='bg'>Visão</h4>
@@ -35,7 +35,7 @@ export function Tech() {
                         cansou de chorar e decidiu fazer alguma coisa a respeito!"
                     </em> */}
                 </Col>
-                <Col id='rocket' md={6} className='text-center'>
+                <Col id='rocket' md={6} className='text-center p-5'>
                     <div className="rocket">
                         <div className="rocket-body">
                             <div className="body"></div>
@@ -66,7 +66,7 @@ export function Tech() {
                         </ul>
                     </div>
                 </Col>
-                <Col className="p-0 m-auto">
+                <Col className="">
                     <article class="text-center py-3">
                         <h1 className="title bg">Tecnologias</h1>
                         <p>
