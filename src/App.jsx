@@ -22,7 +22,6 @@ function App() {
       <div className='bg-black'>
         < Tech />
       </div>
-      <Progress />
       < Projects />
       <div id='hero-3' className='bg-black'>
         < Footer />
