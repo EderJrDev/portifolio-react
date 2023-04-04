@@ -1,10 +1,11 @@
+import { Container, Row, Col } from "react-bootstrap";
+import { Splide, SplideTrack, SplideSlide } from '@splidejs/react-splide';
+import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
+
 import '../css/tech.css';
 import '@splidejs/react-splide/css'; import '@splidejs/react-splide/css/skyblue';
 import '@splidejs/react-splide/css/sea-green';
 
-import { Container, Row, Col } from "react-bootstrap";
-import { Splide, SplideTrack, SplideSlide } from '@splidejs/react-splide';
-import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 
 export function Tech() {
     return (
@@ -18,22 +19,17 @@ export function Tech() {
                 </Col>
                 <Col id='sobre' className="p-5" md={6}>
                     <h4 className='bg'>Missão</h4>
-                    <p>Ajudar a sociedade através da tecnologia, fazendo a diferença no mundo.</p>
+                    <p>Minha missão é mostrar para as pessoas o incrível potencial da tecnologia e como ela pode melhorar todos os aspectos da vida,
+                        desde a comunicação até a resolução de problemas complexos.</p>
                     <h4 className='bg'>Visão</h4>
-                    <p>Alcançar meus objetivos pessoais e profissionais e se possível, ajudar os outros a alcançarem os seus próprios.</p>
+                    <p>Meus objetivos pessoais e profissionais são alcançar excelência no meu ramo de atuação, ser valorizado e reconhecido por minhas habilidades,
+                        e compartilhar meu conhecimento de forma interativa e abrangente com outras pessoas.</p>
                     <h4 className='bg'>Valores</h4>
                     <p>
                         A felicidade é um exercício, ser grato e saber reconhecer. Tudo o que acontecer em minha vida é de minha responsabilidade seja negativamente ou positivamente.
                         Assumir o dever, você está no comando.
                         Ser o líder, estar com a equipe, dando o exemplo e sendo a motivação necessária à todos.
                     </p>
-                    {/* <em className='bg'>
-                        "O Naruto pode ser um pouco duro às vezes, talvez você não saiba disso, mas o Naruto também cresceu sem pai.
-                        Na verdade ele nunca conheceu nenhum de seus pais, e nunca teve nenhum amigo em nossa aldeia.
-                        Mesmo assim eu nunca vi ele chorar, ficar zangado ou se dar por vencido, ele está sempre disposto a melhorar,
-                        ele quer ser respeitado, é o sonho dele e o Naruto daria a vida por isso sem hesitar. Meu palpite é que ele se
-                        cansou de chorar e decidiu fazer alguma coisa a respeito!"
-                    </em> */}
                 </Col>
                 <Col id='rocket' md={6} className='text-center p-5'>
                     <div className="rocket">
@@ -70,7 +66,7 @@ export function Tech() {
                     <article class="text-center py-3">
                         <h1 className="title bg">Tecnologias</h1>
                         <p>
-                            Tecnologias que já tive contato, utilizei em projetos e estudos.
+                            Tecnologias estudadas e utlizadas em projetos.
                         </p>
                     </article>
                     <div>
@@ -92,7 +88,7 @@ export function Tech() {
                         >
                             <SplideTrack>
                                 <SplideSlide>
-                                    <img className="img-tech"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react" />
+                                    <img className="img-tech" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react" />
                                 </SplideSlide>
                                 <SplideSlide>
                                     <img className="img-tech" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="javascript" />

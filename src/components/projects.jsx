@@ -1,8 +1,8 @@
 import React from 'react';
 import { Col, Container, Row } from "react-bootstrap";
-
 import '../css/projects.css';
 import '../css/footer.css';
+
 import js from '../assets/img/js.webp';
 import link from '../assets/img/link.webp';
 import nlw from '../assets/img/nlw.webp';
@@ -23,7 +23,7 @@ export function Projects() {
                             <img src={js} className='fullscreen' alt="Card image" />
                         </div>
                         <div className="texto">
-                            <p>"Projeto desenvolvido em React que consiste em um quiz de JavaScript, permitindo aos usuários testarem seus conhecimentos na linguagem.</p>
+                            <p>Projeto desenvolvido em React que consiste em um quiz de JavaScript, permitindo aos usuários testarem seus conhecimentos na linguagem.</p>
                         </div>
                     </Col>
                     <Col id='link' md={6} className='bg-hover'>
@@ -31,7 +31,7 @@ export function Projects() {
                             <img src={link} className='fullscreen' alt="Card image" />
                         </div>
                         <div className="texto">
-                            <p>"Construí um projeto de Linktree utilizando HTML e CSS para criar animações e estilizações personalizadas, permitindo centralizar diversos links em uma única página."</p>
+                            <p>Construí um projeto de Linktree utilizando HTML e CSS para criar animações e estilizações personalizadas, permitindo centralizar diversos links em uma única página.</p>
                         </div>
                     </Col>
                 </Row>
@@ -41,7 +41,7 @@ export function Projects() {
                             <img src={nlw} className='fullscreen' alt="Card image" />
                         </div>
                         <div className="texto">
-                            <p>"Participei do NLW da Rocketseat e desenvolvi uma aplicação completa, com frontend, backend e versão mobile, utilizando as tecnologias mais modernas do mercado.</p>
+                            <p>Participei do NLW da Rocketseat e desenvolvi uma aplicação completa, com frontend, backend e versão mobile, utilizando as tecnologias mais modernas do mercado.</p>
                         </div>
                     </Col>
                     <Col md={6} className='bg-hover'>

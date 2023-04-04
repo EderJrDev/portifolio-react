@@ -1,6 +1,5 @@
 import React from 'react';
 import { useState } from 'react';
-
 import '../css/menu.css';
 
 export function Menu(props) {
