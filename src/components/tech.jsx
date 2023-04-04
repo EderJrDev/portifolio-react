@@ -109,9 +109,6 @@ export function Tech() {
                                     <img className="img-tech" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="php" />
                                 </SplideSlide>
                                 <SplideSlide>
-                                    <img className="img-tech" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" />
-                                </SplideSlide>
-                                <SplideSlide>
                                     <img className="img-tech" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" />
                                 </SplideSlide>
                                 <SplideSlide>

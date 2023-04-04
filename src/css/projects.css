@@ -68,6 +68,11 @@
   padding: 10px;
 }
 
+.link {
+  text-decoration: none;
+  /* color: #fff !important; */
+}
+
 .fullscreen {
   width: 100%;
   height: 100%;
