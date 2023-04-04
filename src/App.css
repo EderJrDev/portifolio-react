@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto Mono', monospace;
+  overflow-x: hidden !important;
+}
+
+html {
+  overflow-x: hidden !important;
 }
 
 body {
