@@ -69,7 +69,7 @@ export function Tech() {
                             Tecnologias estudadas e utlizadas em projetos.
                         </p>
                     </article>
-                    <div>
+                    <div className="techs">
                         <Splide hasTrack={false} aria-label="..." options={{
                             type: "loop",
                             gap: "10px",

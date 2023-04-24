@@ -40,6 +40,10 @@
      height: 100%;
  }
 
+ .techs {
+    cursor: pointer;
+ }
+
  /* hocket  */
 
  .rocket {
