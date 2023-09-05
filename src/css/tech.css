@@ -2,6 +2,10 @@
      background-color: black !important;
  }
 
+ .bg-white {
+    filter: invert(1);
+ }
+
  /* cards  */
 
  .channel-list {
@@ -36,7 +40,7 @@
  }
 
  .img-tech {
-     width: 300px !important;
+     width: 150px !important;
      height: 100%;
  }
 
