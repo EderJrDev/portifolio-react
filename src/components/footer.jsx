@@ -20,7 +20,7 @@ export function Footer() {
             </article>
           </div>
           <div className="contato-container">
-            <h2>Contate-me</h2>
+            <h2>Fale Comigo</h2>
             <div className="icones-container">
               <a href="https://www.instagram.com/ederjuninho_/" target="_blank">
                 <FontAwesomeIcon icon={faInstagram} />
