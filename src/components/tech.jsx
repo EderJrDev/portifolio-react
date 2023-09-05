@@ -156,6 +156,13 @@ export function Tech() {
                 </SplideSlide>
                 <SplideSlide>
                   <img
+                    className="img-tech bg-white"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                    alt="github"
+                  />
+                </SplideSlide>
+                <SplideSlide>
+                  <img
                     className="img-tech"
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
                     alt="bootstrap"
@@ -173,6 +180,13 @@ export function Tech() {
                     className="img-tech bg-white"
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
                     alt="next"
+                  />
+                </SplideSlide>
+                <SplideSlide>
+                  <img
+                    className="img-tech"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                    alt="figma"
                   />
                 </SplideSlide>
               </SplideTrack>
