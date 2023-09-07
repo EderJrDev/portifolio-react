@@ -365,3 +365,51 @@
          font-size: 7px !important;
      }
  }
+
+    /* Estilos para o card */
+    .cardTech {
+        width: 600px;
+        padding: 20px;
+        border: 1px solid #f5f5f5;
+        border-radius: 10px;
+        margin: 0 auto;
+        border-color: #f5f5f5 !important;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        animation: neonPulse 2s infinite;
+        position: relative; /* Para que as bolinhas sejam posicionadas em relação a este elemento */
+    }
+
+    /* Estilos para o título centralizado no topo */
+    .cardTech h1 {
+        color: #000;
+        margin-top: 0;
+        font-size: medium;
+    }
+
+    .cardTech p {
+        font-size: small;
+    }
+
+    /* Animação quando o cursor passar por cima dos itens da lista */
+    .cardTech li:hover {
+        transform: scale(1.1);
+    }
+
+    @keyframes neonPulse {
+        0% {
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+        }
+        50% {
+          box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+        }
+        100% {
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+        }
+      }
+
+      
+@media (max-width: 991px) {
+    .cardTech {
+        width: auto;
+    }
+  }

@@ -8,9 +8,9 @@ export function Home() {
       <Container />
       <Row className="p-5">
         <Col className="p-0 m-auto">
-          <p className="title">Desenvolvedor Front-end</p>
-          <p>
-            Olá! Eu sou o Eder Jr. Engenheiro de Software e Desenvolvedor Web.
+          <p className="title text-black">Desenvolvedor Front-end</p>
+          <p className="p-0 m-auto text-black">
+            Eder Jr. Engenheiro de Software e Desenvolvedor Web.
           </p>
         </Col>
         <Col className="p-0 text-center">

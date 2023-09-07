@@ -15,7 +15,7 @@ export function Footer() {
         <Col id="contatos" className="section">
           <div className="container3"></div>
           <div className="pt-3 m-auto">
-            <article class="text-center">
+            <article className="text-center">
               <h1 className="title">Gostou?</h1>
             </article>
           </div>
