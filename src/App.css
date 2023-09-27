@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Comic Neue', cursive;
 }
 
 html {
@@ -13,12 +13,12 @@ body {
   overflow-x: hidden !important;
 }
 
+
 .header {
-  background-image: url('./assets/img/bg_3.webp') !important;
-  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, #ad3ef5, #5814a2);
   min-width: 100%;
   min-height: 100%;
-  background-size: cover;
+  background-size: contain;
   z-index: 999 !important;
 }
 

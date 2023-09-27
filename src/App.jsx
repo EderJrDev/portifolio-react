@@ -1,6 +1,7 @@
 import "./App.css";
 import "../src/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import 'atropos/css'
 
 import { Menu } from "./components/menu";
 import { Home } from "./components/home";

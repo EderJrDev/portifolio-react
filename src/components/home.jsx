@@ -1,25 +1,53 @@
-import { Container, Row, Col } from "react-bootstrap";
-import header from "../assets/img/header-img.svg";
-import "../css/menu.css";
+import "atropos/atropos.css";
+import "../styles.css";
+import Atropos from "atropos/react";
+
+import dev from "../assets/img/dev.svg";
+import astronaut from "../assets/img/header-img2.png";
 
 export function Home() {
   return (
     <>
-      <Container />
-      <Row className="p-5">
-        <Col className="p-0 m-auto">
-          <p className="title text-black">Desenvolvedor Front-end</p>
-          <p className="p-0 m-auto text-black">
-            Eder Jr. Engenheiro de Software e Desenvolvedor Web.
-          </p>
-        </Col>
-        <Col className="p-0 text-center">
-          <div className="banner">
-            <img src={header} alt="astronaut" />
-          </div>
-        </Col>
-      </Row>
-      <Container />
+      <div className="container">
+        <Atropos
+          className="atropos-banner"
+          highlight={false}
+          onEnter={() => console.log("enter")}
+        >
+          <img
+            className="atropos-banner-spacer"
+            src="https://raw.githubusercontent.com/nolimits4web/atropos/master/playground/react/i/atropos-bg.svg"
+            alt=""
+          />
+          <img
+            data-atropos-offset="-4.5"
+            src="https://raw.githubusercontent.com/nolimits4web/atropos/master/playground/react/i/atropos-bg.svg"
+            alt=""
+          />
+          <img
+            data-atropos-offset="-2.5"
+            src="https://raw.githubusercontent.com/nolimits4web/atropos/master/playground/react/i/atropos-mountains.svg"
+            alt=""
+          />
+          <img
+            data-atropos-offset="0"
+            src="https://raw.githubusercontent.com/nolimits4web/atropos/master/playground/react/i/atropos-forest-back.svg"
+            alt=""
+          />
+          <img
+            data-atropos-offset="2"
+            src="https://raw.githubusercontent.com/nolimits4web/atropos/master/playground/react/i/atropos-forest-mid.svg"
+            alt=""
+          />
+          <img
+            data-atropos-offset="4"
+            src="https://raw.githubusercontent.com/nolimits4web/atropos/master/playground/react/i/atropos-forest-front.svg"
+            alt=""
+          />
+          <img data-atropos-offset="4" src={dev} alt="" />
+          <img data-atropos-offset="5" src={astronaut} alt="" />
+        </Atropos>
+      </div>
     </>
   );
 }
