@@ -1,6 +1,8 @@
+import { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Splide, SplideTrack, SplideSlide } from "@splidejs/react-splide";
+
 import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
+import { Splide, SplideTrack, SplideSlide } from "@splidejs/react-splide";
 
 import "../css/tech.css";
 import "@splidejs/react-splide/css";
@@ -8,75 +10,59 @@ import "@splidejs/react-splide/css/skyblue";
 import "@splidejs/react-splide/css/sea-green";
 
 export function Tech() {
+  useEffect(() => {
+    function typeWrite(elemento) {
+      const textoArray = elemento.innerHTML.split("");
+      elemento.innerHTML = " ";
+      textoArray.forEach(function (letra, i) {
+        setTimeout(function () {
+          elemento.innerHTML += letra;
+        }, 75 * i);
+      });
+    }
+
+    const titulo = document.querySelector(".titulo-principal");
+
+    // Chama a função typeWrite quando o componente é montado
+    if (titulo) {
+      typeWrite(titulo);
+    }
+
+    // Limpando a função typeWrite quando o componente é desmontado
+    return () => {
+      if (titulo) {
+        titulo.innerHTML = "";
+      }
+    };
+  }, []);
   return (
     <>
       <Container id="sobreId" />
       <Row>
-        <Col className="p-5" md={12}>
-          <article className=" pb-3 text-center">
-            <h1 className="title bg">Valores</h1>
-          </article>
-        </Col>
-        <Col id="sobre" className="p-5" md={6}>
+        <Col id="sobre" className="p-5" md={8}>
           <div className="p-3">
             <div className="cardTech">
-              <h1 className="bg">Missão</h1>
-              <p>
+              <h1 className="titulo-principal">
                 Minha missão é mostrar para as pessoas o incrível potencial da
                 tecnologia e como ela pode melhorar todos os aspectos da vida,
-                desde a comunicação até a resolução de problemas complexos.
-              </p>
-            </div>
-          </div>
-          <div className="p-3">
-            <div className="cardTech">
-              <h1 className="bg">Visão</h1>
-              <p>
-                Meus objetivos pessoais e profissionais são alcançar excelência
-                no meu ramo de atuação, ser valorizado e reconhecido por minhas
+                desde a comunicação até a resolução de problemas complexos. Meus
+                objetivos pessoais e profissionais são alcançar excelência no
+                meu ramo de atuação, ser valorizado e reconhecido por minhas
                 habilidades, e compartilhar meu conhecimento de forma interativa
                 e abrangente com outras pessoas.
-              </p>
-            </div>
-          </div>
-          <div className="p-3">
-            <div className="cardTech">
-              <h1 className="bg">Valores</h1>
-              <p>
+              </h1>
+              <br />
+              <h1 className="titulo-principal">
                 A felicidade é um exercício, ser grato e saber reconhecer. Tudo
                 o que acontecer em minha vida é de minha responsabilidade seja
                 negativamente ou positivamente. Assumir o dever, você está no
                 comando. Ser o líder, estar com a equipe, dando o exemplo e
                 sendo a motivação necessária à todos.
-              </p>
+              </h1>
             </div>
           </div>
-
-          {/* <h4 className="bg">Missão</h4>
-          <div>
-            <p> 
-              Minha missão é mostrar para as pessoas o incrível potencial da
-              tecnologia e como ela pode melhorar todos os aspectos da vida,
-              desde a comunicação até a resolução de problemas complexos.
-            </p>
-          </div>
-          <h4 className="bg">Visão</h4>
-          <p>
-            Meus objetivos pessoais e profissionais são alcançar excelência no
-            meu ramo de atuação, ser valorizado e reconhecido por minhas
-            habilidades, e compartilhar meu conhecimento de forma interativa e
-            abrangente com outras pessoas.
-          </p>
-          <h4 className="bg">Valores</h4>
-          <p>
-            A felicidade é um exercício, ser grato e saber reconhecer. Tudo o
-            que acontecer em minha vida é de minha responsabilidade seja
-            negativamente ou positivamente. Assumir o dever, você está no
-            comando. Ser o líder, estar com a equipe, dando o exemplo e sendo a
-            motivação necessária à todos.
-          </p> */}
         </Col>
-        <Col id="rocket" md={6} className="text-center py-5">
+        <Col id="rocket" md={4} className="text-center py-5">
           <div className="rocket">
             <div className="rocket-body">
               <div className="body"></div>
